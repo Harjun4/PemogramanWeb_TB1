@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body onload="location.hash = 'profil';">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#profil">Profil</a></li>
+          <li><a href="#kuliah">Jadwal Kuliah</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Page 1: Profil Pribadi -->
+    <div class="halaman" id="profil">
+      <div class="card">
+        <img src="harjuna.jpg" alt="Foto Profil" class="profil-image" />
+        <h1 class="nama">Harjuna Adi Putra Wicaksana</h1>
+        <p class="data">
+          Saya seorang mahasiswa semester tiga di Universitas Mercu Buana,
+          Fakultas Ilmu Komputer, Jurusan Sistem Informasi. Sejak awal kuliah,
+          saya sangat tertarik dengan dunia teknologi dan bagaimana teknologi
+          bisa mengubah kehidupan sehari-hari kita menjadi lebih mudah dan
+          efisien.
+        </p>
+
+        <p>
+          Saat ini, saya sedang mendalami bidang web development, karena saya
+          percaya dengan adanya web yang baik bisa menjadi solusi yang praktis dan mudah
+          diakses oleh banyak orang.
+        </p>
+        <div class="sosial">
+          <a href="https://www.instagram.com/rjn_ck/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://github.com/Harjun4"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page 2: Tabel Mata Kuliah -->
+    <div id="kuliah" class="halaman">
+      <div class="container1">
+        <h2>Mata Kuliah</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Kode MK</th>
+              <th>Mata Kuliah</th>
+              <th>Jadwal Kuliah</th>
+              <th>Dosen Pengampu</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>U002100011</td>
+              <td>KEWIRAUSAHAAN I</td>
+              <td>Senin, 13:15 14:45</td>
+              <td> Dr.Zulfitri, MP, MM</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>F062100005</td>
+              <td>PEMROGRAMAN BERORIENTASI OBJEK</td>
+              <td>Rabu, 07:30 10:00</td>
+              <td>Lukman Hakim, ST, M.Kom</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>W182100015</td>
+              <td>PEMODELAN PROSES BISNIS</td>
+              <td>Rabu, 10:15 12:45</td>
+              <td>Fajar Masya, Ir. MMSI</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>W182100010</td>
+              <td>ANALISA PERANCANGAN SISTEM INFORMASI</td>
+              <td>Rabu, 13:15 15:45</td>
+              <td>Yunita Sartika Sari, S.Kom, M.Kom</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>W182100012</td>
+              <td>PEMROGRAMAN WEB</td>
+              <td>Kamis, 07:30 10:00</td>
+              <td>Muhammad Ali Akbar, M.Kom</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>W182100032</td>
+              <td>PEMROGRAMAN MOBILE</td>
+              <td>Kamis, 10:15 12:45</td>
+              <td>Muhammad Ali Akbar, M.Kom</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>U002100001</td>
+              <td>PENDIDIKAN AGAMA ISLAM</td>
+              <td>Jumat, 07:30 09:10</td>
+              <td>Nini Nadhiroh, S.Pd.I,M.Pd</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>U002100007</td>
+              <td>PANCASILA</td>
+              <td>Jumat, 09:30 11:10</td>
+              <td>Dr.Singmin Johanes Lo, MM</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>U002100009</td>
+              <td>BAHASA INDONESIA</td>
+              <td>Jumat, 14:00 15:40</td>
+              <td>Drs.Sumardi,M.Pd</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
